@@ -9,10 +9,7 @@ Will appear at CVPR 2024.
 
 
 
-
-<video id="main" controls="" preload="none" poster="1">
-      <source id="mp4" src="assets/main.mp4" type="video/mp4">
-</videos>
+![](assets/main.mp4)
 
 
 <video id="audio-driven" controls="" preload="none" poster="2">
