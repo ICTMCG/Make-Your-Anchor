@@ -2,6 +2,8 @@
 
 ![](assets/teaser.png)
 
+<a href='https://arxiv.org/abs/2403.16510'><img src='https://img.shields.io/badge/ArXiv-2303.09535-red'></a> 
+
 Will appear at CVPR 2024!
 
 ## Abstract
