@@ -32,7 +32,7 @@ Despite the remarkable process of talking-head-based avatar-creating solutions, 
 
 ### Environment
 
-Our code is based on [PyTorch]() and [Diffusers](). Recommended requirements can be installed via
+Our code is based on [PyTorch](https://pytorch.org/) and [Diffusers](https://huggingface.co/docs/diffusers/index). Recommended requirements can be installed via
 
 ```shell
 pip install -r requirements.txt
