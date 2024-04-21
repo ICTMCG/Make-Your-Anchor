@@ -42,6 +42,10 @@ To process videos, [FFmpeg](https://ffmpeg.org//) is required to be installed.
 
 For face alignment, please download and unzip the relative files from [this link](https://onedrive.live.com/?authkey=%21ADJ0aAOSsc90neY&cid=4A83B6B633B029CC&id=4A83B6B633B029CC%215837&parId=4A83B6B633B029CC%215834&action=locate) to the folder *.\inference\insightface_func\models\\*.
 
+### Download Inference Checkpoints
+
+Please download the checkpoints from [Google Drive](https://drive.google.com/drive/folders/1NyEc001rdkYIIGP8TR9RAQp4Lw3UKmdh?usp=sharing), and place them in the folder *./inference/checkpoints*. Currently, we upload the checkpoints trained from open-dataset.
+
 ## Inference
 
 We provide the inference code with our released checkpoints. After download/fine-tuned the checkpoints and place them in the *./inference/checkpoints*, the inference can be run as:
