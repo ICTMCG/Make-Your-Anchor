@@ -3,7 +3,6 @@
 ![](assets/teaser.png)
 
 <a href='https://arxiv.org/abs/2403.16510'><img src='https://img.shields.io/badge/ArXiv-2403.16510-red'></a> 
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=ICTMCG.Make-Your-Anchor)
 
 Will appear at CVPR 2024!
 
