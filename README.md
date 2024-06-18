@@ -74,6 +74,17 @@ After generation (it takes about 5 minutes), the results are listed in the *./in
 
 
 
+## Training (WIP)
+
+We provide training scripts. Please download the pre-trained weights from [[pre-trained_weight](https://1drv.ms/f/c/64d71f39113d98e4/EljLPdDW1r1LnxZv02s2txwBSmW6EtJkXB_HIHY2kFLvpQ?e=nIwxla)] and place them in ./train/checkpoints. The training code can be run as:
+
+```shell
+bash train_body.sh
+bash train_head.sh
+```
+
+(The json file for training is to be updated)
+
 ## Video Results
 ### Comparisons
 https://github.com/ICTMCG/Make-Your-Anchor/assets/11772240/c72910fb-2eb5-4796-8064-7abfc5f1170f
