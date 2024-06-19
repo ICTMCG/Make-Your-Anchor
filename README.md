@@ -26,7 +26,7 @@ Despite the remarkable process of talking-head-based avatar-creating solutions, 
 ## TODO
 - [x] Inference code and checkpoints
 - [ ] Preprocess code and guidance
-- [ ] Fine-tuning code and pre-trained weights
+- [x] Fine-tuning code and pre-trained weights
 
 ## Getting Started
 
@@ -45,6 +45,23 @@ For face alignment, please download and unzip the relative files from [this link
 ### Download Inference Checkpoints
 
 Please download the checkpoints from [Google Drive](https://drive.google.com/drive/folders/1NyEc001rdkYIIGP8TR9RAQp4Lw3UKmdh?usp=sharing), and place them in the folder *./inference/checkpoints*. Currently, we upload the checkpoints trained from open-dataset.
+
+### Download Pre-trained Checkpoints and Sample Fine-tuning Data
+
+We provide pre-trained weights and a sample fine-tuning data of one identity for fine-tuning. For the pre-trained weights, please download them from [[pre-trained_weight](https://1drv.ms/f/c/64d71f39113d98e4/EljLPdDW1r1LnxZv02s2txwBSmW6EtJkXB_HIHY2kFLvpQ?e=nIwxla)] and place them in *./train/checkpoints*. For the sample fine-tuning data, please download the *train_data.zip* from [[fine-tune_data](https://1drv.ms/f/c/64d71f39113d98e4/EjylVV7lno5Ksq5o1zlAHGgBlMpvbHL9i8ju9XiKM75ZOw?e=KZylc7)] and  unzip it in *./train*. The final folder should be seen like:
+
+```
+train/
+├── checkpoints/
+│	└──pre-trained_weight/
+│   	├── body/
+│    	└──head/
+└── train_data/
+    ├── body/
+    ├── head/
+ 	├── body_train.json
+ 	└── head_train.json
+```
 
 ## Inference
 
@@ -72,20 +89,19 @@ head_prompt_img_pth=./samples/appearance/head.png
 
 After generation (it takes about 5 minutes), the results are listed in the *./inference/samples/output*.
 
+## Fine-tuning
 
-
-## Training (WIP)
-
-We provide training scripts. Please download the pre-trained weights from [[pre-trained_weight](https://1drv.ms/f/c/64d71f39113d98e4/EljLPdDW1r1LnxZv02s2txwBSmW6EtJkXB_HIHY2kFLvpQ?e=nIwxla)] and place them in ./train/checkpoints. The training code can be run as:
+We provide training scripts. Please download the pre-trained weights from [[pre-trained_weight](https://1drv.ms/f/c/64d71f39113d98e4/EljLPdDW1r1LnxZv02s2txwBSmW6EtJkXB_HIHY2kFLvpQ?e=nIwxla)] and sample data from [[fine-tune_data](https://1drv.ms/f/c/64d71f39113d98e4/EjylVV7lno5Ksq5o1zlAHGgBlMpvbHL9i8ju9XiKM75ZOw?e=KZylc7)] as the above instructions. The training code can be run as:
 
 ```shell
 bash train_body.sh
 bash train_head.sh
 ```
 
-(The json file for training is to be updated)
+Some parameters should be filled with your configuration in the *train_body.sh* and *train_head.sh*.
 
 ## Video Results
+
 ### Comparisons
 https://github.com/ICTMCG/Make-Your-Anchor/assets/11772240/c72910fb-2eb5-4796-8064-7abfc5f1170f
 

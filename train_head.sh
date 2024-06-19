@@ -3,13 +3,12 @@ cd train
 export CUDA_VISIBLE_DEVICES=0
 export MODEL_DIR="runwayml/stable-diffusion-inpainting"
 
-export TRANSFORMERS_OFFLINE=1
+# load weights from stage-1
 unet_model_name_or_path="./checkpoints/pre-trained_weight/head/unet"
 controlnet_model_name_or_path="./checkpoints/pre-trained_weight/head/unet"
 
-
 export OUTPUT_DIR="path/to/save_folder"
-json_file=path/to/head_json_file
+json_file=./train_data/head_train.json
 
 # for validation
 val_img1=path/to/head_pose_1

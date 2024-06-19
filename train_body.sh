@@ -8,9 +8,7 @@ unet_model_name_or_path="./checkpoints/pre-trained_weight/body/unet"
 controlnet_model_name_or_path="./checkpoints/pre-trained_weight/body/unet"
 
 export OUTPUT_DIR="path/to/save_folder"
-
-export TRANSFORMERS_OFFLINE=1
-json_file=path/to/body_json_file
+json_file=./train_data/body_train.json
 
 # for validation
 val_img1=path/to/body_pose_1
