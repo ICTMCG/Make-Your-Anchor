@@ -54,13 +54,13 @@ We provide pre-trained weights and a sample fine-tuning data of one identity for
 train/
 ├── checkpoints/
 │	└──pre-trained_weight/
-│   	├── body/
-│    	└──head/
+│        ├── body/
+│        └──head/
 └── train_data/
     ├── body/
     ├── head/
- 	├── body_train.json
- 	└── head_train.json
+    ├── body_train.json
+    └── head_train.json
 ```
 
 ## Inference
