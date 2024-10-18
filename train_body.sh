@@ -5,7 +5,7 @@ export MODEL_DIR="runwayml/stable-diffusion-v1-5"
 
 # load weights from stage-1
 unet_model_name_or_path="./checkpoints/pre-trained_weight/body/unet"
-controlnet_model_name_or_path="./checkpoints/pre-trained_weight/controlnet/unet"
+controlnet_model_name_or_path="./checkpoints/pre-trained_weight/body/controlnet"
 
 export OUTPUT_DIR="path/to/save_folder"
 json_file=./train_data/body_train.json
