@@ -5,7 +5,7 @@ export MODEL_DIR="runwayml/stable-diffusion-inpainting"
 
 # load weights from stage-1
 unet_model_name_or_path="./checkpoints/pre-trained_weight/head/unet"
-controlnet_model_name_or_path="./checkpoints/pre-trained_weight/head/unet"
+controlnet_model_name_or_path="./checkpoints/pre-trained_weight/head/controlnet"
 
 export OUTPUT_DIR="path/to/save_folder"
 json_file=./train_data/head_train.json
