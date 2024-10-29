@@ -44,7 +44,7 @@ For face alignment, please download and unzip the relative files from [this link
 
 ### Download Inference Checkpoints
 
-Please download the checkpoints from [Google Drive](https://drive.google.com/drive/folders/1NyEc001rdkYIIGP8TR9RAQp4Lw3UKmdh?usp=sharing), and place them in the folder *./inference/checkpoints*. Currently, we upload the checkpoints trained from open-dataset.
+Please download the checkpoints from [Google Drive](https://drive.google.com/drive/folders/1NyEc001rdkYIIGP8TR9RAQp4Lw3UKmdh?usp=sharing) or [OneDrive](https://1drv.ms/f/c/64d71f39113d98e4/ErwtLq-VEYpIj8BeaU5rQT8BURftZlJPud1wDqVlS0W4uQ?e=Pvrko2), and place them in the folder *./inference/checkpoints*. Currently, we upload the checkpoints trained from open-dataset.
 
 ### Download Pre-trained Checkpoints and Sample Fine-tuning Data
 
