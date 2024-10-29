@@ -28,7 +28,6 @@ accelerate launch --main_process_port 65537 train_body.py \
  --dataset_config_name $json_file \
  --image_column target \
  --conditioning_image_column source \
- --caption_column prompt \
  --resolution=512 \
  --learning_rate=1e-5 \
  --validation_image $val_img1 $val_img2 $val_img3 $val_img4 \
