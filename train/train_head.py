@@ -665,6 +665,7 @@ def parse_args(input_args=None):
 
 def image_process(img_pth):
     img = cv2.imread(img_pth)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img = cv2.resize(img, (256, 256))
     return Image.fromarray(img)
 
