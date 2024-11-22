@@ -1,10 +1,8 @@
-# Make-Your-Anchor: A Diffusion-based 2D Avatar Generation Framework
+# Make-Your-Anchor: A Diffusion-based 2D Avatar Generation Framework (CVPR 2024)
 
 ![](assets/teaser.png)
 
 <a href='https://arxiv.org/abs/2403.16510'><img src='https://img.shields.io/badge/ArXiv-2403.16510-red'></a> 
-
-Will appear at CVPR 2024!
 
 ## TL; DR
 Make-Your-Anchor is a personalized 2d avatar generation framework based on diffusion model,  which is capable of generating realistic human videos with SMPL-X sequences as condition.
