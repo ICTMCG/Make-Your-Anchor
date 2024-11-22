@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 To process videos, [FFmpeg](https://ffmpeg.org//) is required to be installed.
 
-For face alignment, please download and unzip the relative files from [this link](https://onedrive.live.com/?authkey=%21ADJ0aAOSsc90neY&cid=4A83B6B633B029CC&id=4A83B6B633B029CC%215837&parId=4A83B6B633B029CC%215834&action=locate) to the folder *.\inference\insightface_func\models\\*.
+For face alignment, please download and unzip the relative files from [this link](https://onedrive.live.com/?authkey=%21ADJ0aAOSsc90neY&cid=4A83B6B633B029CC&id=4A83B6B633B029CC%215837&parId=4A83B6B633B029CC%215834&action=locate) or [our upload](https://1drv.ms/f/c/64d71f39113d98e4/EoqviR6iT65Kq0YX3XkFgsYBbSQdrEMZiigdEOB4Ca6QiA?e=fFhVPf) to the folder *.\inference\insightface_func\models\\*.
 
 ### Download Inference Checkpoints
 
