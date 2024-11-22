@@ -20,12 +20,13 @@ Despite the remarkable process of talking-head-based avatar-creating solutions, 
 - As a person-specific approach, we plan to release the pre-trained weight from pre-training stage, and the fine-tuning code. The guidance and code for preprocess training data will be updated.
 - Due to the limitation of current training dataset, our method performs better when the driven motion is in a similar style as the target person (as cross-person result shows). We plan to increase the quantity of pre-training and fine-tuning data to overcome this limitation.
 
+<!-- 
 ## Changelog
-- __[2024.04.22]__: Release the inference code and pretrained weights.
+- __[2024.04.22]__: Release the inference code and pretrained weights. -->
 
 ## TODO
 - [x] Inference code and checkpoints
-- [ ] Preprocess code and guidance
+- [x] Preprocess code and guidance
 - [x] Fine-tuning code and pre-trained weights
 
 ## Getting Started
@@ -88,6 +89,10 @@ head_prompt_img_pth=./samples/appearance/head.png
 ```
 
 After generation (it takes about 5 minutes), the results are listed in the *./inference/samples/output*.
+
+## Preprocess (WIP)
+
+Follow the README.md in the directory of *preprocess*. Maybe it need more check, please contract me if find any problem.
 
 ## Fine-tuning
 
