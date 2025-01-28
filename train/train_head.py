@@ -750,7 +750,7 @@ def make_train_dataset(args, tokenizer, accelerator):
         reference_images = [reference_image_transforms(image) for image in reference_images]
 
 
-        mask = [process_mask(image) for image, person in zip(examples['mask'], examples['person'])]
+        mask = [process_mask(image) for image in examples['mask']]
         mask = [image.convert("L") for image in mask]
         mask = [mask_transforms(image) for image in mask]
         # print(mask[0].min(), mask[0].max())
