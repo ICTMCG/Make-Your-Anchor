@@ -141,6 +141,14 @@ https://github.com/ICTMCG/Make-Your-Anchor/assets/11772240/644fc444-20db-46d7-a5
   journal={arXiv preprint arXiv:2403.16510},
   year={2024}
 }
+
+@inproceedings{huang2024mya,
+  title={Make-your-anchor: A diffusion-based 2d avatar generation framework},
+  author={Huang, Ziyao and Tang, Fan and Zhang, Yong and Cun, Xiaodong and Cao, Juan and Li, Jintao and Lee, Tong-Yee},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6997--7006},
+  year={2024}
+}
 ```
 
 ## Acknowledgements
@@ -164,8 +172,8 @@ Here are some great resources we benefit:
 
 
 ## TODO
-- [] Inference code and checkpoints
-- [] Fine-tuning code and pre-trained weights
+- [  ] Inference code and checkpoints
+- [  ] Fine-tuning code and pre-trained weights
 
 
 ## Citation
