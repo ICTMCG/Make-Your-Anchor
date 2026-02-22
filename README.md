@@ -1,8 +1,18 @@
+
+# Make-Your-Anchor
+This is the repository for **Make-Your-Anchor (CVPR 2024)** and **Make-Your-Anchor+ (TVCG 2026)**.
+## Contents
+
+- [Make-Your-Anchor](#Make-Your-Anchor)
+- [Make-Your-Anchor+](#Make-Your-Anchor+)
+
+<a name="Make-Your-Anchor"></a>
 # Make-Your-Anchor: A Diffusion-based 2D Avatar Generation Framework (CVPR 2024)
 
 ![](assets/teaser.png)
 
 <a href='https://arxiv.org/abs/2403.16510'><img src='https://img.shields.io/badge/ArXiv-2403.16510-red'></a> 
+<a href='https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_Make-Your-Anchor_A_Diffusion-based_2D_Avatar_Generation_Framework_CVPR_2024_paper.pdf'><img src='https://img.shields.io/badge/CVPR-2024-blue'></a>
 
 ## TL; DR
 Make-Your-Anchor is a personalized 2d avatar generation framework based on diffusion model,  which is capable of generating realistic human videos with SMPL-X sequences as condition.
@@ -142,3 +152,34 @@ Here are some great resources we benefit:
 - [SimSwap](https://github.com/neuralchen/SimSwap.git) for the code of face preprocess
 
 - [ControlVideo](https://github.com/YBYBZhang/ControlVideo.git) for the implementation of  full-frame attention.
+
+
+
+<a name="Make-Your-Anchor+"></a>
+# Make-Your-Anchor+: Temporal Consistent 2D Avatar Generation via Video Diffusion Prior (TVCG 2026) 
+<a href='https://doi.org/10.1109/TVCG.2026.3655478'><img src='https://img.shields.io/badge/TVCG-2026-blue'></a>
+
+## TL; DR
+**Make-Your-Anchor+** is the improved version of **Make-Your-Anchor** by incorporating video diffusion prior to generate temporal consistent 2D avatar.
+
+
+## TODO
+- [] Inference code and checkpoints
+- [] Fine-tuning code and pre-trained weights
+
+
+## Citation
+
+```BibTeX
+@ARTICLE{huang2024makeyouranchor+,
+  author={Huang, Ziyao and Tang, Fan and Cao, Juan and Zhang, Yong and Cun, Xiaodong and Bo, Yihang and Li, Jintao and Lee, Tong-Yee},
+  journal={IEEE Transactions on Visualization and Computer Graphics (TVCG)}, 
+  title={Make-Your-Anchor+: Temporal Consistent 2D Avatar Generation via Video Diffusion Prior}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-16},
+  keywords={Videos;Diffusion models;Training;Faces;Avatars;Visualization;Three-dimensional displays;Hands;Lips;Torso;Human video generation;digital human synthesis},
+  doi={10.1109/TVCG.2026.3655478}}
+
+```
